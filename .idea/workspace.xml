@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a1e1767-6a1e-47a9-a762-fcfad71e7944" name="Changes" comment="Add config service">
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/aymendev/accountservice/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/aymendev/accountservice/AccountServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/net/aymendev/accountservice/web/AccountRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/net/aymendev/accountservice/web/AccountRestController.java" afterDir="false" />
+    <list default="true" id="4a1e1767-6a1e-47a9-a762-fcfad71e7944" name="Changes" comment="add exceptions">
+      <change afterPath="$PROJECT_DIR$/config-repo/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <updated>1716458586429</updated>
       <workItem from="1716458587446" duration="1263000" />
       <workItem from="1716460338923" duration="1367000" />
-      <workItem from="1716461743770" duration="29067000" />
+      <workItem from="1716461743770" duration="29819000" />
     </task>
     <task id="LOCAL-00001" summary="working on spring cloud gateway - microservices">
       <option name="closed" value="true" />
@@ -176,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716889073291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add exceptions">
+      <option name="closed" value="true" />
+      <created>1716890878164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716890878164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +206,8 @@
     <MESSAGE value="working on spring cloud gateway - microservices" />
     <MESSAGE value="debugging Service accounts App" />
     <MESSAGE value="Add config service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add config service" />
+    <MESSAGE value="add exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exceptions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
