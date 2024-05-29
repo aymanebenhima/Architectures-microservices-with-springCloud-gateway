@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a1e1767-6a1e-47a9-a762-fcfad71e7944" name="Changes" comment="change record to class">
+    <list default="true" id="4a1e1767-6a1e-47a9-a762-fcfad71e7944" name="Changes" comment="merge env variables to config-services">
+      <change afterPath="$PROJECT_DIR$/account-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/account-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/account-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/customer-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/customer-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -54,6 +56,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "HTTP Request.rest-api_2 | #1.executor": "Run",
     "HTTP Request.rest-api_2 | #2.executor": "Run",
+    "Maven.account-service [clean,package...].executor": "Run",
+    "Maven.bank-account-app [clean,package...].executor": "Run",
+    "Maven.config-service [package].executor": "Run",
+    "Maven.customer-service [compile].executor": "Run",
+    "Maven.customer-service [package].executor": "Run",
+    "Maven.discovery-service [clean,package...].executor": "Run",
+    "Maven.gateway-service [clean,package...].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -70,14 +79,14 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Youcode/Documents/IIBDCC/bank-account-app/bank-account-app/config-repo",
+    "last_opened_file_path": "C:/Users/Youcode/Documents/IIBDCC/bank-account-app/bank-account-app/discovery-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reactor",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,9 +99,17 @@
       <recent name="net.aymendev.accountservice.enums" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Youcode\Documents\IIBDCC\bank-account-app\bank-account-app\discovery-service" />
+      <recent name="C:\Users\Youcode\Documents\IIBDCC\bank-account-app\bank-account-app\gateway-service" />
+      <recent name="C:\Users\Youcode\Documents\IIBDCC\bank-account-app\bank-account-app\account-service" />
+      <recent name="C:\Users\Youcode\Documents\IIBDCC\bank-account-app\bank-account-app\config-service" />
       <recent name="C:\Users\Youcode\Documents\IIBDCC\bank-account-app\bank-account-app\config-repo" />
-      <recent name="C:\Users\Youcode\Documents\IIBDCC\bank-account-app\bank-account-app\gateway-service\src\main\resources" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package -DskipTests" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -170,7 +187,9 @@
       <updated>1716458586429</updated>
       <workItem from="1716458587446" duration="1263000" />
       <workItem from="1716460338923" duration="1367000" />
-      <workItem from="1716461743770" duration="38584000" />
+      <workItem from="1716461743770" duration="41537000" />
+      <workItem from="1716984661776" duration="2358000" />
+      <workItem from="1717010228415" duration="8200000" />
     </task>
     <task id="LOCAL-00001" summary="working on spring cloud gateway - microservices">
       <option name="closed" value="true" />
@@ -220,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716978285516</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="merge env variables to config-services">
+      <option name="closed" value="true" />
+      <created>1716979015176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716979015176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +272,8 @@
     <MESSAGE value="add exceptions" />
     <MESSAGE value="add config services properties" />
     <MESSAGE value="change record to class" />
-    <option name="LAST_COMMIT_MESSAGE" value="change record to class" />
+    <MESSAGE value="merge env variables to config-services" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge env variables to config-services" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
