@@ -1,15 +1,18 @@
 package net.aymendev.customerservice;
 
+import net.aymendev.customerservice.config.GlobalConfig;
 import net.aymendev.customerservice.entities.Customer;
 import net.aymendev.customerservice.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 
 @SpringBootApplication
+@EnableConfigurationProperties(GlobalConfig.class)
 public class CustomerServiceApplication {
 
     public static void main(String[] args) {
