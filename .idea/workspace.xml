@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a1e1767-6a1e-47a9-a762-fcfad71e7944" name="Changes" comment="add config services properties">
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/net/aymendev/customerservice/config/GlobalConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/net/aymendev/customerservice/web/ConfigTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4a1e1767-6a1e-47a9-a762-fcfad71e7944" name="Changes" comment="change record to class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/account-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/account-service.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-repo/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/net/aymendev/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/net/aymendev/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/customer-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/customer-service.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +170,7 @@
       <updated>1716458586429</updated>
       <workItem from="1716458587446" duration="1263000" />
       <workItem from="1716460338923" duration="1367000" />
-      <workItem from="1716461743770" duration="37909000" />
+      <workItem from="1716461743770" duration="38584000" />
     </task>
     <task id="LOCAL-00001" summary="working on spring cloud gateway - microservices">
       <option name="closed" value="true" />
@@ -214,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716891267478</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change record to class">
+      <option name="closed" value="true" />
+      <created>1716978285516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716978285516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +244,8 @@
     <MESSAGE value="Add config service" />
     <MESSAGE value="add exceptions" />
     <MESSAGE value="add config services properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="add config services properties" />
+    <MESSAGE value="change record to class" />
+    <option name="LAST_COMMIT_MESSAGE" value="change record to class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
